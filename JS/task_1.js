@@ -12,8 +12,8 @@ const account = {
       return this.orders;
     },
     addOrder(cost, order) {
-        this.balance -= cost;
-        this.orders.push(order);
+      this.balance -= cost;
+      this.orders.push(order);
     },
   };
   
